@@ -17,7 +17,7 @@ public class TrackingCamera : MonoBehaviour
         if (_rigidbody == null) _rigidbody = GetComponent<Rigidbody>();
     }
 
-    private void LateUpdate()
+    private void Update()
     {
         // Œ»İƒJƒƒ‰‚Æ‚Ì‹——£
         float distance = Vector3.Distance(transform.position, _target.position);
